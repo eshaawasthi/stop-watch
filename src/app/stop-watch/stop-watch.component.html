@@ -1,0 +1,18 @@
+<div class="row main-watch-wrapper">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+        <h2 class="heading-title">Stopwatch</h2>
+        <div class="disp-flex">
+            <div class="image-clock">
+                <div class="image-clock-inner">
+                    <span *ngIf="10>hr">0</span>{{ hr }}:
+                    <span *ngIf="10>mm">0</span>{{ mm }}:
+                    <span *ngIf="10>ss">0</span>{{ ss }}
+                </div>
+            </div>
+        </div>
+        <div class="disp-flex">
+            <button class="common-button" (click)="onStartOrPause(btnStartOrPause)">{{btnStartOrPause}}</button>
+            <button class="common-button" (click)="onResetAll()">Reset</button>
+        </div>
+    </div>
+</div>

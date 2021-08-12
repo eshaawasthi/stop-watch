@@ -1,0 +1,57 @@
+.main-watch-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.image-clock{
+    position: relative;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    
+    font-weight: 500;
+    animation-name: circular-stop-watch;
+    animation-duration: 4ms;
+}
+.image-clock-inner{
+    position: relative;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 0 0 0 rgb(255 0 0 / 50%) inset, 0 15px 0 0 rgb(252 150 209 / 50%) inset, -15px 0 0 0 rgb(0 255 155 / 50%) inset, 0 -15px 0 0 rgb(0 150 255 / 50%) inset;
+}
+.disp-flex{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px;
+}
+.common-button{
+    background-color: #ffffff;
+    border: none;
+    width: 121px;
+    height: 44px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    font-weight: 600;
+    color: #1d1b1b;
+    font-weight: 500;
+}
+.common-button:hover {
+    color: #191818!important;
+    background-color: #ffffff!important;
+}
+.image-clock {
+    font-size: 30px;
+}
+ /* box-shadow: 15px 0 0 0 rgb(255 0 0 / 50%) inset, 0 15px 0 0 rgb(252 150 209 / 50%) inset, -15px 0 0 0 rgb(0 255 155 / 50%) inset, 0 -15px 0 0 rgb(0 150 255 / 50%) inset;
+     box-shadow: 150px 0 0 0 rgb(30 140 209 / 20%) inset, 0 150px 0 0 rgb(30 140 209 / 20%) inset, -150px 0 0 0 rgb(30 140 209 / 20%) inset, 0 -150px 0 0 rgb(30 140 209 / 20%) inset;*/
